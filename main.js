@@ -80,7 +80,7 @@ function fetchIssues() {
                               '<h6> User id: ' + id + '</h6>'+
                               
                               '<h3>' + desc + '</h3>'+
-      '<p>' + email + '</p>'+
+      '<p><span class="glyphicon glyphicon-envelope"></span>' + email + '</p>'+
                               '<p><span class="glyphicon glyphicon-star"></span> ' + severity + '</p>'+
                               '<p><span class="glyphicon glyphicon-user"></span> ' + assignedTo + '</p>'+
                               
